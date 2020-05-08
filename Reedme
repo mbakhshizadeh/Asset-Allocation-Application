@@ -1,0 +1,9 @@
+Asset Allocation means assigning money to asset classes by minimizing portfolio risk and maximizing portfolio return (maximizing sharp ratio= Excess return/risk). 
+Asset classes would be divided into equity, fix-income, cash and alternative investment such as commodity futures and options contracts. 
+This application receives asset classes’ returns and then applies resampling method to generates asset weights for a million times. Using these weights, the efficient frontier will be plotted and then by considering appropriate risk-free interest rate and those weights that end up the highest sharp ratio, tangency point (optimal point=) will be selected as the best portfolio.
+Instruction:
+
+1-	First, assign appropriate risk-free interest rate.
+2-	Click “Load Data” to input data as an excel file (CSV, XLSX, XLS). In the excel, put each asset return in each column (column name should be defined). 
+3-	Click “Start” to run the code. The outcome will appear on the above text widget.
+4-	Click “Graph” to generate efficient frontier on an external window. You can save the graph.
