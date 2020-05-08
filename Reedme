@@ -4,6 +4,6 @@ This application receives asset classes’ returns and then applies resampling m
 Instruction:
 
 1-	First, assign appropriate risk-free interest rate.
-2-	Click “Load Data” to input data as an excel file (CSV, XLSX, XLS). In the excel, put each asset return in each column (column name should be defined). 
+2-	Click “Load Data” to input data as an excel file (CSV, XLSX, XLS). In the excel, put each asset return in each column (column name should be defined. See "Excel Input Example.PNG" attachment). 
 3-	Click “Start” to run the code. The outcome will appear on the above text widget.
 4-	Click “Graph” to generate efficient frontier on an external window. You can save the graph.
